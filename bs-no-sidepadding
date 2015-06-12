@@ -1,0 +1,35 @@
+/*!
+ * full width columns by Gergely Muka - Spring interactive
+ * Full width columns are columns that have no side padding or margin for the content contained.
+ * This solution is strict: only works if .row is the immediate child of a
+ * .container or a .container-fluid
+ */
+/*
+ * 1. Remove the padding from the container by adding the .no-sidepadding class
+ */
+[class^="container"].no-sidepadding,
+[class*=" container"].no-sidepadding {
+  padding-right: 0;
+  padding-left: 0;
+}
+/*
+ * 2. Remove the margin from the .row class children of any container type with
+ * the .no-sidepadding class
+ */
+[class^="container"].no-sidepadding > .row,
+[class*=" container"].no-sidepadding > .row {
+	margin-left:0;
+	margin-right:0;
+}
+
+/*
+ * 3. Remove the padding from any immediate col- class children of any .row class element
+ * that is the child of any .container with .no-sidepadding class
+ */
+[class^="container"].no-sidepadding > .row > [class^="col-"],
+[class^="container"].no-sidepadding > .row > [class*=" col-"],
+[class*=" container"].no-sidepadding > .row > [class^="col-"],
+[class*=" container"].no-sidepadding > .row > [class*=" col-"] {
+	padding-left:0;
+	padding-right:0;
+}
