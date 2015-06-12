@@ -9,4 +9,4 @@ This repository is for frequently used solutions.
 - Bootstrap
 - etc.
 
-This should be a quick referenc and copy-paste source.
+This repository should be a quick reference and copy-paste source.
