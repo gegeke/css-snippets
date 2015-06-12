@@ -1,5 +1,11 @@
-# css-snippets
+# snippets
 
-This repository is for frequently used CSS solutions.
+This repository is for frequently used solutions.
 
-CSS preporcessor files (like LESS) can also be put here.
+- Javascript
+- jQuery
+- CSS (also files like LESS)
+- HTML
+- Bootstrap
+
+This should be a quick referenc and copy-paste source.
